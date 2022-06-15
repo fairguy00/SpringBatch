@@ -13,3 +13,5 @@ buildNumber.properties
 .settings
 .project
 .classpath
+spring-batch-template/bin/src/main/java/com/hwantastic/batch/TemplateTasklet.class
+spring-batch-template/bin/src/test/java/com/hwantastic/batch/TestTemplateJob.class
