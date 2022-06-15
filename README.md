@@ -1,6 +1,6 @@
 ### SpringBatch
 
- [스프링 배치 공식 문서]: (https://docs.spring.io/spring-batch/trunk/reference/html/index.html)
+ [스프링 배치 공식 문서](https://docs.spring.io/spring-batch/trunk/reference/html/index.html)
 
 ## 스프링 배치 Job의 구성
 
@@ -80,7 +80,7 @@ process 메소드로 넘겨받은 item을 가공하여 수정된 item을 그대�
 참고로 ItemProcessor가 꼭 필요한 건 아니다. 데이터를 가공할 필요가 없는 경우엔 ItemReader -> ItemWriter로 바로 넘겨도 상관없다.
 
 
-[ItemProcessor 공식 문서]: (https://docs.spring.io/spring-batch/docs/current/api/org/springframework/batch/item/ItemProcessor.html)
+[ItemProcessor 공식 문서](https://docs.spring.io/spring-batch/docs/current/api/org/springframework/batch/item/ItemProcessor.html)
     
 
 ## ItemWriter
