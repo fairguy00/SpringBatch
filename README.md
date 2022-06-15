@@ -13,7 +13,7 @@ Step은 읽기 -> 가공하기 -> 쓰기의 묶음이다. 이 묶음을 Chunk pr
 
 다음은 스프링 공식 문서에서 가져온 Chunk processing의 컨셉트를 보여주는 예제이다. 한꺼번에 다 읽어서 쓰는 게 아닌 commitInterval 만큼 읽고 쓰기 때문에 재시작이 가능한 것이다.
 
-<pre>
+```java
 List items = new Arraylist();
 
 for(int i = 0; i < commitInterval; i++){
@@ -27,4 +27,4 @@ for(int i = 0; i < commitInterval; i++){
 }
 
 itemWriter.write(items);
-</pre>
+```
